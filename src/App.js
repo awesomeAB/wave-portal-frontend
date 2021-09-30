@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import contractABI from './utils/WavePortal.json';
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
+const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS ?? '0x50907a86880db87027035E906D819dAFeA387a4f'; // default public contract address
 
 export default function App() {
   const [currentAccount, setCurrentAccount] = useState("");

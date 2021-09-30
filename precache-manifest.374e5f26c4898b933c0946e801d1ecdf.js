@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1654014e00756946f03acaddd6fda40",
+    "revision": "70d53f4b0a3192f8cd31fec41d879dfa",
     "url": "/wave-portal-frontend/index.html"
   },
   {
-    "revision": "fd685811a49c3b9a1be5",
+    "revision": "ccda1aacef1a3a855ab6",
     "url": "/wave-portal-frontend/static/css/main.7cf057bb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wave-portal-frontend/static/js/2.8cbbd9a7.chunk.js"
   },
   {
-    "revision": "fd685811a49c3b9a1be5",
-    "url": "/wave-portal-frontend/static/js/main.84effede.chunk.js"
+    "revision": "ccda1aacef1a3a855ab6",
+    "url": "/wave-portal-frontend/static/js/main.11d8c1b0.chunk.js"
   },
   {
     "revision": "ae7be694d3202a5b584f",

@@ -122,7 +122,7 @@ export default function App() {
         /*
         * Execute the actual wave from your smart contract
         */
-        const waveTxn = await waveportalContract.wave(message);
+        const waveTxn = await waveportalContract.wave(message, { gasLimit: 300000 });
 
         console.log("Mining...", waveTxn.hash);
 

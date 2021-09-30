@@ -104,7 +104,8 @@ export default function App() {
 
   const wave = async () => {
     if(!currentAccount){
-      alert("Connect your MetaMask wallet to continue!")
+      alert("Connect your MetaMask wallet to continue!");
+      return;
     }
     
     if(!message){
